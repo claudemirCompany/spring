@@ -12,7 +12,7 @@ import org.springframework.web.servlet.handler.AbstractHandlerMapping;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import br.com.casadocodigo.loja.daos.ProductDAO;
-
+//teste commit git
 @EnableWebMvc
 @ComponentScan(basePackageClasses = { HomeController.class, ProductDAO.class })
 public class AppWebConfiguration extends WebMvcConfigurationSupport {
