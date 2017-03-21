@@ -5,6 +5,7 @@ import java.beans.PropertyEditorSupport;
 import br.com.casadocodigo.loja.models.Capa;
 
 public class CartaTyeEditor extends PropertyEditorSupport {
+	//oi to aqui
      @Override
     public void setAsText(String text) {
     	Capa c = new Capa();
